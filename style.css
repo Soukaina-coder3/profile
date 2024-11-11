@@ -1,0 +1,85 @@
+body {
+  background: bisque;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color:azure;
+  font-size: medium;
+  line-height:normal;
+  text-align: center;
+}
+
+h1 {
+  color:white;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size:x-large;
+  line-height: normal;
+}
+
+a {
+  color: white;
+  text-decoration:double;
+}
+
+img {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  object-position: top;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  width:max-content;
+  margin:0%;
+  justify-content: space-around;
+}
+
+i {
+  font-size: 40px;
+  color:pink;
+}
+
+div {
+
+padding: 16px;
+background-color:pink;
+text-decoration: none;
+color:white;
+border-radius: 50px;
+margin-top: 1rem;
+display: inline-block;
+font-weight: 600;
+}
+
+ class {
+  padding: 50px;
+background-color:pink;
+text-decoration: none;
+color: white;
+border-radius: 50px;
+margin-top: 1rem;
+display:inline-block;
+font-weight: 600;
+}
+
+@media (max-width: 960px) {
+  /* Pour un écran < 960px, cette classe CSS s'applique */
+  .container {
+    width: 960px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* Pour un écran < 720px, cette classe CSS s'applique */
+  .container {
+    width: 720px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* Pour un écran < 540px, cette classe CSS s'applique */
+  .container {
+    width: 540px;
+  }
+}
